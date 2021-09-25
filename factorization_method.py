@@ -18,7 +18,7 @@ Returns:
     motion - the motion matrix
 '''
 def factorization_method(points_im1, points_im2):
-    # TODO: Implement this method!
+
     print(points_im1, points_im2)
     N = points_im1.shape[0]
     points_set = [points_im1, points_im2]
